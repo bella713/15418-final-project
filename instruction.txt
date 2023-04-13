@@ -1,0 +1,14 @@
+The project aims to implement a Sudoku solver using backtracking algorithm, and optimize it with parallelization using OpenMP and MPI.
+
+Project website: https://bella713.github.io/15418-final-project/
+
+Project proposal: https://github.com/bella713/15418-final-project/blob/main/project_proposal.pdf
+
+To compile the file:
+g++ -o serial sudoku_serial.cpp
+
+To run the file:
+./serial <board_size> <test file>
+./serial 9 test_files/board_9x9_1.txt
+./serial 16 test_files/board_16x16_1.txt
+./serial 25 test_files/board_25x25_1.txt
