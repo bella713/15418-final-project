@@ -87,10 +87,17 @@ int main(int argc, char* argv[])
 	cout << "Input board:" << '\n';
 	printGrid(N, grid);
 
+	auto start = chrono::system_clock::now();
+	bool result = SolveSudoku(N, grid);
+	auto end = chrono::system_clock::now();
+
+	chrono::duration<double> elapsed_seconds = end - start;
+
 	// print result
-	if (SolveSudoku(N, grid) == true){
+	if (result){
 		cout << '\n' << "Solution board: " << '\n';
 		printGrid(N, grid);
+		cout << "Computation Time: " << elapsed_seconds.count() << '\n';
 	}
 	else{
 		cout << "No solution exists";
