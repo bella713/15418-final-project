@@ -10,6 +10,9 @@ The website to this project:
 [Project website](https://bella713.github.io/15418-final-project/)
 
 Project proposal, milestone report and final report are linked here:
+
 [Project proposal](./project_proposal.pdf)
+
 Project milestone report
+
 Project final report
