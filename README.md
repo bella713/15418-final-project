@@ -20,7 +20,7 @@ Project documents are linked here:
 
 [Project proposal](./documents/project_proposal.pdf) <br>
 [Project milestone report](./documents/project_milestone_report.pdf) <br>
-[Project final report](./documents/project_final_report) <br>
+[Project final report](./documents/project_final_report.pdf) <br>
 
 ## Instructions
 
