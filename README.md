@@ -26,26 +26,26 @@ Project documents are linked here:
 
 To compile the file: <br>
 **Serial Algorithm** <br>
-g++ -o serial sudoku_serial.cpp <br>
+	g++ -o serial sudoku_serial.cpp <br>
 **OpenMP Algorithm** <br>
-g++ -o openmp sudoku_openmp.cpp -fopenmp <br>
+	g++ -o openmp sudoku_openmp.cpp -fopenmp <br>
 **MPI Algorithm** <br>
-mpic++ -o mpi sudoku_mpi.cpp <br>
+	mpic++ -o mpi sudoku_mpi.cpp <br>
 
 To run serial file: <br>
-./serial <board_size> <test_file> <br>
-./serial 9 test_files/board_9x9_1.txt <br>
-./serial 16 test_files/board_16x16_1.txt <br>
-./serial 25 test_files/board_25x25_1.txt <br>
+	./serial <board_size> <test_file> <br>
+	./serial 9 test_files/board_9x9_1.txt <br>
+	./serial 16 test_files/board_16x16_1.txt <br>
+	./serial 25 test_files/board_25x25_1.txt <br>
 
-To run OpenMP file:
-./openmp <board_size> <test_file> <br>
-./openmp 9 test_files/board_9x9_1.txt <br>
-./openmp 16 test_files/board_16x16_1.txt <br>
-./openmp 25 test_files/board_25x25_1.txt <br>
+To run OpenMP file:<br>
+	./openmp <board_size> <test_file> <br>
+	./openmp 9 test_files/board_9x9_1.txt <br>
+	./openmp 16 test_files/board_16x16_1.txt <br>
+	./openmp 25 test_files/board_25x25_1.txt <br>
 
 To run MPI file: <br>
-mpirun -n <number_processes> mpi <board_size> <test_file> <br>
-mpirun -n 2 mpi 9 test_files/board_9x9_1.txt <br>
-mpirun -n 4 mpi 9 test_files/board_9x9_1.txt <br>
-mpirun -n 4 mpi 16 test_files/board_16x16_1.txt <br>
+	mpirun -n <number_processes> mpi <board_size> <test_file> <br>
+	mpirun -n 2 mpi 9 test_files/board_9x9_1.txt <br>
+	mpirun -n 4 mpi 9 test_files/board_9x9_1.txt <br>
+	mpirun -n 4 mpi 16 test_files/board_16x16_1.txt <br>
