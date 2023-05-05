@@ -106,11 +106,7 @@ int main(int argc, char* argv[])
 	int N = stoi(argv[1]);
 	string filename = argv[2];
 
-	// int size = 16;
-
 	// generate the 2D array for input board
-
-	// int grid[N][N];
 	int** grid;
 	grid = new int*[N];
 	for (int i = 0; i < N; i++)
@@ -123,7 +119,7 @@ int main(int argc, char* argv[])
 
 	start = omp_get_wtime();
 
-	#pragma omp parallel shared(grid) num_threads(16)
+	#pragma omp parallel shared(grid) num_threads(4)
 	#pragma omp single nowait	
 	{
 		SolveSudoku(N, grid, 1);
