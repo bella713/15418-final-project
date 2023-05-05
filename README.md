@@ -4,7 +4,7 @@ Parallelization in Sudoku Solving Algorithm
 The project aims to implement a Sudoku solver using backtracking algorithm, and optimize it with parallelization using OpenMP and MPI.
 
 
-### Website and Reports
+## Website and Reports
 
 The website to this project:
 [Project website](https://bella713.github.io/15418-final-project/)
@@ -17,27 +17,27 @@ Project milestone report
 
 Project final report
 
-### Instructions
+## Instructions
 
-To compile the file:
-**Serial Algorithm** g++ -o serial sudoku_serial.cpp
-**OpenMP Algorithm** g++ -o openmp sudoku_openmp.cpp -fopenmp
-**MPI Algorithm** mpic++ -o mpi sudoku_mpi.cpp
+To compile the file: <br>
+**Serial Algorithm** g++ -o serial sudoku_serial.cpp <br>
+**OpenMP Algorithm** g++ -o openmp sudoku_openmp.cpp -fopenmp <br>
+**MPI Algorithm** mpic++ -o mpi sudoku_mpi.cpp <br>
 
-To run serial file:
-./serial <board_size> <test file>
-./serial 9 test_files/board_9x9_1.txt
-./serial 16 test_files/board_16x16_1.txt
-./serial 25 test_files/board_25x25_1.txt
+To run serial file: <br>
+./serial <board_size> <test file> <br>
+./serial 9 test_files/board_9x9_1.txt <br>
+./serial 16 test_files/board_16x16_1.txt <br>
+./serial 25 test_files/board_25x25_1.txt <br>
 
 To run OpenMP file:
-./openmp <board_size> <test file>
-./openmp 9 test_files/board_9x9_1.txt
-./openmp 16 test_files/board_16x16_1.txt
-./openmp 25 test_files/board_25x25_1.txt
+./openmp <board_size> <test file> <br>
+./openmp 9 test_files/board_9x9_1.txt <br>
+./openmp 16 test_files/board_16x16_1.txt <br>
+./openmp 25 test_files/board_25x25_1.txt <br>
 
-To run MPI file:
-mpirun -n <number_processes> mpi <board_size> <test_file>
-mpirun -n 2 mpi 9 test_files/board_9x9_1.txt
-mpirun -n 4 mpi 9 test_files/board_9x9_1.txt
-mpirun -n 4 mpi 16 test_files/board_16x16_1.txt
+To run MPI file: <br>
+mpirun -n <number_processes> mpi <board_size> <test_file> <br>
+mpirun -n 2 mpi 9 test_files/board_9x9_1.txt <br>
+mpirun -n 4 mpi 9 test_files/board_9x9_1.txt <br>
+mpirun -n 4 mpi 16 test_files/board_16x16_1.txt <br>
