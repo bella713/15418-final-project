@@ -25,10 +25,10 @@ To compile the file:
 **MPI Algorithm** mpic++ -o mpi sudoku_mpi.cpp
 
 To run serial file:
-./serial <board_size> <test file>
-./serial 9 test_files/board_9x9_1.txt
-./serial 16 test_files/board_16x16_1.txt
-./serial 25 test_files/board_25x25_1.txt
+./serial <board_size> <test file>. 
+./serial 9 test_files/board_9x9_1.txt. 
+./serial 16 test_files/board_16x16_1.txt. 
+./serial 25 test_files/board_25x25_1.txt. 
 
 To run OpenMP file:
 ./openmp <board_size> <test file>
