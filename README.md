@@ -33,13 +33,13 @@ g++ -o openmp sudoku_openmp.cpp -fopenmp <br>
 mpic++ -o mpi sudoku_mpi.cpp <br>
 
 To run serial file: <br>
-./serial <board_size> <test file> <br>
+./serial <board_size> <test_file> <br>
 ./serial 9 test_files/board_9x9_1.txt <br>
 ./serial 16 test_files/board_16x16_1.txt <br>
 ./serial 25 test_files/board_25x25_1.txt <br>
 
 To run OpenMP file:
-./openmp <board_size> <test file> <br>
+./openmp <board_size> <test_file> <br>
 ./openmp 9 test_files/board_9x9_1.txt <br>
 ./openmp 16 test_files/board_16x16_1.txt <br>
 ./openmp 25 test_files/board_25x25_1.txt <br>
